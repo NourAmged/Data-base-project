@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Base Project</title>
+    <link rel="stylesheet" href="../src/style.css" />
+  </head>
+  <body>
+    <h1>SQL Query Executor</h1>
+    <form id="queryForm">
+      <textarea
+        id="query"
+        rows="5"
+        cols="50"
+        placeholder="Enter your SQL query here"
+      ></textarea>
+      <br />
+      <button type="submit">Execute</button>
+    </form>
+    <div id="result"></div>
+    <div class="container">
+      <div class="data-base-header">
+        <h1>Data Base: E-commerce</h1>
+
+        <div class="select-and-add">
+          <select id="tables" name="tables">
+            <option value="" disabled selected>Tables</option>
+            <option value="User1" id="User1">
+              User1
+            </option>
+            <option value="User_phone" id="User_phone">
+              User_phone
+            </option>
+            <option value="Cart" id="Cart">
+              Cart
+            </option>
+            <option value="Product_category" id="Product_category">
+              Product_category
+            </option>
+            <option value="Product" id="Product">
+              Product
+            </option>
+            <option value="Cart_Product" id="Cart_Product">
+              Cart_Product
+            </option>
+            <option value="Wishlist" id="Wishlist">
+              Wishlist
+            </option>
+            <option value="Wishlist_Product" id="Wishlist_Product">
+              Wishlist_Product
+            </option>
+            <option value="Orders" id="Orders">
+              Orders
+            </option>
+            <option value="OrderDetails" id="OrderDetails">
+              Orders
+            </option>
+            <option value="Order_Product" id="Order_Product">
+              Order_Product
+            </option>
+            <option value="Shipment" id="Shipment">
+              Shipment
+            </option>
+            <option value="Payment" id="Payment">
+              Payment
+            </option>
+          </select>
+          <button class="add">Add</button>
+        </div>
+      </div>
+      <div class="table">Table:<span></span></div>
+      <div class="table-container">
+        <table id="table"></table>
+      </div>
+      <div class="popup">
+      </div>
+      <div id="overlay"></div>
+    </div>
+  </body>
+</html>
