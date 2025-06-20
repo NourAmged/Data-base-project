@@ -13,6 +13,8 @@ This project is a web-based SQL query executor and table manager for an e-commer
 - **Modern UI:**
   - Responsive and clean design for easy data management.
 
+![screenshot](Screenshot%202025-06-20%20225503.png)
+
 ## Technologies Used
 
 - **Frontend:**
@@ -44,8 +46,8 @@ This project is a web-based SQL query executor and table manager for an e-commer
 ### Installation
 1. **Clone the repository:**
    ```sh
-   git clone <repo-url>
-   cd dataBase-project
+   git clone https://github.com/NourAmged/Data-base-project.git
+   cd Data-base-project
    ```
 2. **Install dependencies:**
    ```sh
@@ -90,5 +92,4 @@ This project is a web-based SQL query executor and table manager for an e-commer
 - Ensure your SQL Server allows remote connections and the credentials are correct.
 - For production, consider securing the API and sanitizing queries to prevent SQL injection.
 
-## License
-This project is licensed under the ISC License.
+
